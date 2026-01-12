@@ -9,17 +9,17 @@ export type ThemeCode = "mr" | "gg" | "pb" | "ps" | "pg" | "dy" | "so";
 
 export const SITE_CONFIG = {
   // ★サイトの正しいURLに変更してください（sitemapやOGP等で使う想定）
-  siteUrl: "https://genzai.me",
+  siteUrl: "https://sample-lab.genzai.me",
 
-  title: "GenZaiMe - 現在味",
+  title: "(サンプル)GenZaiMe Lab - 現在味ラボ",
   lang: "ja",
 
   // dark/light はモード（文字色と背景のコントラスト）
-  defaultTheme: "dark" as "dark" | "light",
+  defaultTheme: "light" as "dark" | "light",
 
   // ★アクセントは「枠・見出し・Markdown装飾」にだけ使う想定
   // GenZaiMe は red(mr) を既定にする
-  defaultAccent: "so" as ThemeCode,
+  defaultAccent: "dy" as ThemeCode,
 
   analytics: {
     // Google Analytics / gtag を使う場合に設定
@@ -29,7 +29,7 @@ export const SITE_CONFIG = {
 
   socials: {
     x: "https://x.com/",
-    github: "https://github.com/GenZaiMe/genzaime.github.io"
+    github: "https://github.com/GenZaiMe/sample-lab"
   }
 };
 
@@ -72,7 +72,7 @@ export const HOME_BLOCKS = [
  * コーポレート情報（右側や cp ページで使う想定）
  */
 export const OPS_CONFIG = {
-  companyName: "GenZaiMe - 現在味",
+  companyName: "GenZaiMe Lab - 現在味ラボ",
   project_code:"GenZaiMe",
   project_code_jp:"現在味",
   description: "操作がわかりやすく。視認性が高く。拡張しやすく誰でも利用可能なテーマを提供しています。",
@@ -118,7 +118,7 @@ export const FOOTER_MENU = [
  * コピーライト表示
  */
 export const COPYRIGHT = {
-  owner: "GenZaiMe",
+  owner: "(サンプル)GenZaiMe Lab",
   startYear: 2026
 };
 
